@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="css/signup.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/signup.js"></script>
+</head>
+<body>
+  <div class="login-container">
+    <span class="material-symbols-outlined account-icon">
+      account_circle
+    </span>
+
+    <form>
+      <p>Sign up</p>
+      <div class="input">
+        <label for="name"></label>
+        <input type="input" name="name" required placeholder="Name">
+      </div>
+      <div class="input">
+        <label for="email"></label>
+        <input type="email" name="email" required placeholder="Email">
+      </div>
+      <div class="input">
+        <label for="password"></label>
+        <input type="password" name="password" placeholder="Password">
+      </div>
+      <button>Register</button>
+      <p id="error-message" style="color: red;"></p>
+    </form>
+  </div>
+</body>
+</html>

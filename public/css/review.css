@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  font-family: Inter, Arial;
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant-name {
+  margin-bottom: 0;
+  width: 470px;
+}
+
+textarea {
+  resize: none;
+  font-family: Inter, Arial;
+  color: black;
+  padding: 5px;
+  padding-left: 8px;
+}
+
+button {
+  border: none;
+  background-color: #F03939;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 8px;
+  cursor: pointer;
+  display: block;
+  margin-top: 15px;
+}
+
+
+.rating {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 2rem;
+  color: lightgray;
+  line-height: 1;
+}
+
+.star:hover,
+.star:hover~.star,
+.star.selected {
+  color: #F03939;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+  display: none;
+}

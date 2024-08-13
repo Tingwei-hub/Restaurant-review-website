@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  font-family: Inter, Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-icon {
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form > *{
+  display: block;
+  margin-bottom: 18px;
+}
+
+.input {
+  border-radius: 5px;
+  background-color: white;
+  width: max-content;
+  border: rgba(128, 128, 128, 0.25) 1px solid;
+}
+
+form input {
+  padding: 6px 10px;
+  width: 250px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+form input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+form button {
+  color: white;
+  background-color: #F03939;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#new {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+#error-message {
+  margin: 0;
+  font-size: 12px;
+}
